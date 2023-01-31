@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body{
+            background-image: url(../Desktop/back.jpg);
+        }
+        .hd{
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            border: 5px solid white;
+        }
+      /* Style for the form container */
+      .form-container {
+        width: 500px;
+        padding: 20px;
+        background: none;
+        margin: auto;
+        border-radius: 15px;
+        border: 5px solid black;
+      }
+
+      /* Style for the form input fields */
+      .form-input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+      }
+
+      /* Style for the form submit button */
+      .form-submit-button {
+        width: 100%;
+        padding: 12px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      /* Style for the form header */
+      .form-header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .r1{
+        height: 550px;
+        width: 800px;
+        background: none;
+        margin: auto;
+        padding: auto;
+    }
+    .r1c1 , .r1c2 , .r1c3 {
+        height: 120px;
+        width: 190px;
+        background: none;
+        float: left;
+        margin: 10px;
+        padding: 20px;
+    }
+    .r1c4 , .r1c5 , .r1c6 {
+        height: 120px;
+        width: 190px;
+        background: none;
+        float: left;
+        margin: 10px;
+        padding: 20px;
+    }
+    .r1c7 , .r1c8 , .r1c9 {
+        height: 120px;
+        width: 190px;
+        background: none;
+        float: left;
+        margin: 10px;
+        padding: 20px;
+    }
+    img{
+        height: 140px;
+        width: 190px;
+    }
+    video{
+        height: 140px;
+        width: 190px;
+        
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="hd"><center><h1>ADMISSION FORM</h1></center></div>
+    <br>
+    <br><br>
+    
+    <!-- Form container -->
+    <div class="form-container">
+      <!-- Form header -->
+      <h2 class="form-header">Admission Form</h2>
+      <!-- Form inputs -->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="form-input" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="form-input" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" class="form-input" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" class="form-input" required>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" class="form-input" rows="4" required></textarea>
+
+        <label for="program">Program:</label>
+        <select id="program" class="form-input">
+          <option value="bachelor">Bachelor</option>
+          <option value="master">Master</option>
+          <option value="phd">Ph.D</option>
+        </select>
+
+        <label for="cgpa">CGPA:</label>
+        <input type="number" id="cgpa" min="0" max="4" step="0.1" class="form-input" required>
+
+        <!-- Form submit button -->
+        <input type="submit" value="Submit" class="form-submit-button">
+      </form>
+    </div>
+    <br>
+    <center>
+<div class="r1">
+        <div class="r1c1"><img src="../Downloads/1.jpg"> </div>
+        <div class="r1c2"><img src="../Downloads/2.jpg"> </div>
+        <div class="r1c3"><img src="../Downloads/3.jpg"> </div>
+        <div class="r1c4"><img src="../Downloads/4.jpg"> </div>
+        <div class="r1c5"><img src="../Downloads/5.jpg"> </div>
+        <div class="r1c6"><img src="../Downloads/6.jpg"> </div>
+        <div class="r1c7"><img src="../Downloads/7.jpg"> </div>
+        <div class="r1c8"><video src="../Downloads/8.mp4" autoplay controls loop> </div>
+        <div class="r1c9"><video src="../Downloads/9.mp4" autoplay controls loop> </div>
+</div>
+    </center>
+   
+  </body>
+</html>
